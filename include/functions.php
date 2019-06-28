@@ -1,5 +1,5 @@
 <?php
-function my_login_logo_one() { ?> 
+function gt_gratech_change_login_logo() { ?> 
     <style type="text/css"> 
     body.login div#login h1 a {
         background-image: url(<?php echo GT_GRATECH_USER_IMG_URL ?>/dashlogo.png);
@@ -9,7 +9,7 @@ function my_login_logo_one() { ?>
     </style>
 <?php 
 }
-add_action('login_enqueue_scripts', 'my_login_logo_one');
+add_action('login_enqueue_scripts', 'gt_gratech_change_login_logo');
 
 add_action('admin_bar_menu', 'gt_gratech_toolbar_link_to_mypage', 999);
 function gt_gratech_toolbar_link_to_mypage($wp_admin_bar) {
