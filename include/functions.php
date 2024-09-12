@@ -16,7 +16,7 @@ function gt_gratech_toolbar_link_to_mypage($wp_admin_bar) {
 	$args = array(
 		'id'    => 'finance_report_menu',
 		'title' => 'سامانه پشتیبانی شرکت گراتک',
-		'href'  => "http://cp.gratech.ir/",
+		'href'  => "https://gtch.ir/",
 		'meta'  => array('class' => 'my-toolbar-page', 'target' => '_blank')
 	);
 	$wp_admin_bar->add_node($args);
